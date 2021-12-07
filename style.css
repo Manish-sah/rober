@@ -101,18 +101,34 @@ h1{
 
 }
 @media screen and (max-width: 600px){
-.menu a{
-    font-size: 12px;
+    .menu a{
+        font-size: 12px;
+        
+    }
+    .logo{
+        font-size: 12px;
+    }
+    .menu{
+        width: 90%;
+    }
     
 }
-.logo{
-    font-size: 12px;
-}
-.menu{
-    width: 90%;
-}
-} 
+
     
+@media screen and (max-width: 400px){
+    .menu a{
+        font-size: 8px;
+        
+    }
+    .logo{
+        font-size: 8px;
+        width: 8%;
+    }
+    .menu{
+        width: 90%;
+    }
+    
+}
         
     
 

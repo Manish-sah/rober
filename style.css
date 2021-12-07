@@ -1,0 +1,115 @@
+.header{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.logo{
+    height: 80%;
+    width: 10%;
+    padding: 3px 3px;
+    /* border: 1px solid red; */
+    color: rgb(245, 247, 250);
+    background-color: rgb(47, 170, 192);
+    border-radius: 15%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+
+}
+.menu{
+    height:100%;
+    width: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+
+}
+.menu a{
+    
+    padding: 10px;
+    /* border: 1px solid white; */
+    border-radius: 5%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(204, 21, 128);
+    background-color: rgb(149, 238, 157);
+}
+.poster{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(10deg,skyblue,orange);
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left{
+    height: 300px;
+    width: 45%;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    background-color: teal;
+    background-image: url(left.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right{
+    height: 300px;
+    width: 45%;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    /* background-color: lightskyblue; */
+    background-image: url(right.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .futer{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid red; */
+    /* background-color: black;
+} */ 
+.footer {
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid red;  */
+    background: slategray;
+    padding-top:  30px;
+    padding-bottom:   30px;
+    text-align: center;
+}
+.menu a:hover{
+    color: whitesmoke;
+    text-shadow: 0px 3px 10px rgba(212, 212, 212);
+
+}
+@media screen and (max-width: 600px){
+.menu a{
+    font-size: 12px;
+}
+.logo{
+    font-size: 12px;
+}
+} 
+    
+        
+    
+
+
